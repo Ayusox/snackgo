@@ -68,55 +68,6 @@ snack-go/
 3. **Servidor Local**: Abre `index.html` en tu navegador o usa un servidor local
 4. **¡Listo!**: La página funciona completamente offline
 
-## 🔧 Personalización
-
-### Cambiar Información de Contacto
-
-Edita los siguientes elementos en `index.html`:
-
-```html
-<!-- Teléfono -->
-<a href="tel:+34911234567">+34 91 123 45 67</a>
-
-<!-- WhatsApp -->
-<a href="https://wa.me/34911234567">WhatsApp</a>
-
-<!-- Dirección -->
-<p>Calle Gran Vía, 123<br>28013 Madrid, España</p>
-```
-
-### Modificar Colores
-
-En `styles.css`, cambia la variable de color principal:
-
-```css
-/* Cambiar #e74c3c por tu color preferido */
-.logo h2 { color: #e74c3c; }
-.btn-primary { background: #e74c3c; }
-```
-
-### Actualizar Menú
-
-Modifica la sección `#menu` en `index.html` para añadir/quitar productos:
-
-```html
-<div class="menu-item">
-    <img src="imagen.jpg" alt="Producto">
-    <div class="item-info">
-        <h4>Nombre del Producto</h4>
-        <p>Descripción</p>
-        <span class="price">€X.XX</span>
-    </div>
-</div>
-```
-
-### Cambiar Imágenes
-
-Reemplaza las URLs de Unsplash por tus propias imágenes:
-
-1. Sube tus imágenes a una carpeta `images/`
-2. Cambia las URLs en el HTML: `src="images/tu-imagen.jpg"`
-
 ## 📱 Funcionalidades Móviles Avanzadas
 
 ### **Menú Hamburguesa Profesional:**
@@ -151,14 +102,6 @@ Reemplaza las URLs de Unsplash por tus propias imágenes:
 - Estructura semántica HTML5
 - Carga rápida y optimizada
 - Lazy loading de imágenes
-
-## 📞 Integración con Plataformas
-
-La página incluye enlaces para:
-
-- **WhatsApp Business**: Pedidos directos por chat
-- **Teléfono**: Llamadas directas
-- **Glovo/UberEats**: Enlaces a plataformas de delivery (personalizar URLs)
 
 ## ✨ Funcionalidades Profesionales Implementadas
 
@@ -257,4 +200,5 @@ Este proyecto es de uso libre para fines comerciales y personales.
 ## 🎉 **¡WEB COMPLETAMENTE LISTA PARA PRODUCCIÓN!**
 
 **Snack&Go** - Fast Food de Calidad al Momento 🍔  
+
 *Una experiencia gastronómica excepcional en el corazón de Madrid*
