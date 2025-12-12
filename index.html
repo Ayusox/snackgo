@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Snack&Go - El mejor fast food de Madrid. Hamburguesas gourmet, kebabs auténticos y burritos mexicanos con ingredientes frescos. ¡Pide ahora!">
+    <meta name="theme-color" content="#e74c3c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Snack&Go - Fast Food de Calidad al Momento</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-hamburger"></i>
+                    <h2>Snack&Go</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contacto" class="btn-pedido">Reservar</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        <!-- Overlay para cerrar menú -->
+        <div class="nav-overlay"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-video">
+            <div class="hero-fallback" style="background-image: url('images/hero/photo-1568901346375-23c9450c58cd.jpg'), url('images/hero/photo-1571091718767-18b5b1457add.jpg'), url('images/hero/photo-1550547660-d9450f859349.jpg');"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">🔥 Nuevo en Madrid</span>
+                <h1>Snack<span class="highlight">&</span>Go</h1>
+                <p class="hero-subtitle">Fast Food de Calidad al Momento</p>
+                <p class="hero-description">Hamburguesas gourmet, kebabs auténticos, burritos mexicanos y mucho más. Ingredientes frescos, sabores únicos.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Llamar Ahora
+                    </a>
+                    <a href="#menu" class="btn-secondary-hero">
+                        <i class="fas fa-utensils"></i>
+                        Ver Menú
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15min</span>
+                        <span class="stat-label">Tiempo promedio</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.8★</span>
+                        <span class="stat-label">Valoración</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Clientes felices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Nuestra Filosofía</h2>
+                    <p>En Snack&Go hemos revolucionado el concepto de comida rápida demostrando que velocidad y calidad van de la mano. Utilizamos ingredientes frescos de proveedores locales y técnicas profesionales para crear hamburguesas, kebabs y burritos únicos. Ofrecemos precios justos creando un espacio donde todos pueden disfrutar de una experiencia gastronómica excepcional en Madrid.</p>
+                </div>
+                <div class="about-image">
+                    <video autoplay muted loop>
+                        <source src="images/videos/vecteezy_tacos-with-meat-and-vegetable-mexican-food-style_3230495.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menú -->
+    <section id="menu" class="menu">
+        <div class="menu-container">
+            <!-- Header del menú -->
+            <div class="menu-header">
+                <div class="menu-title">
+                    <span class="menu-subtitle">Nuestro</span>
+                    <h2 class="menu-main-title">MENÚ</h2>
+                </div>
+                <div class="menu-logo">
+                    <i class="fas fa-hamburger"></i>
+                    <span>Snack&Go</span>
+                </div>
+            </div>
+
+            <!-- Grid del menú -->
+            <div class="menu-grid">
+                <!-- Hamburguesas -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Hamburguesas</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Hamburguesa clásica</span>
+                                    <span class="item-description">Carne 100% ternera, lechuga, tomate</span>
+                                </div>
+                                <span class="item-price">€8.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">BBQ Deluxe</span>
+                                    <span class="item-description">Doble carne, bacon, salsa BBQ casera</span>
+                                </div>
+                                <span class="item-price">€11.90</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Veggie Supreme</span>
+                                    <span class="item-description">Hamburguesa vegetal, aguacate, rúcula</span>
+                                </div>
+                                <span class="item-price">€9.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/hamburguesa-de-alto-angulo-con-papas-fritas-en-la-mesa.jpg" alt="Hamburguesas">
+                    </div>
+                </div>
+
+                <!-- Kebabs -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Kebabs</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Kebab Mixto</span>
+                                    <span class="item-description">Pollo y ternera, verduras frescas</span>
+                                </div>
+                                <span class="item-price">€7.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Durum Especial</span>
+                                    <span class="item-description">Pan lavash, doble carne, vegetales</span>
+                                </div>
+                                <span class="item-price">€8.90</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Shawarma Premium</span>
+                                    <span class="item-description">Cordero especiado, hummus casero</span>
+                                </div>
+                                <span class="item-price">€9.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/doner-de-pollo-en-pan-sobre-una-plancha-de-madera.jpg" alt="Kebabs">
+                    </div>
+                </div>
+
+                <!-- Burritos -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Burritos</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Mexicano Auténtico</span>
+                                    <span class="item-description">Pollo marinado, guacamole fresco</span>
+                                </div>
+                                <span class="item-price">€9.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Veggie Power</span>
+                                    <span class="item-description">Verduras asadas, quinoa, aguacate</span>
+                                </div>
+                                <span class="item-price">€8.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Carnitas Deluxe</span>
+                                    <span class="item-description">Cerdo confitado, salsa verde</span>
+                                </div>
+                                <span class="item-price">€10.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/vista-lateral-shawarma-con-papas-fritas-en-utensilios-de-cocina.jpg" alt="Burritos">
+                    </div>
+                </div>
+
+                <!-- Patatas -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Patatas & Snacks</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Bravas Artesanas</span>
+                                    <span class="item-description">Salsa brava casera, alioli</span>
+                                </div>
+                                <span class="item-price">€5.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Loaded Fries</span>
+                                    <span class="item-description">Queso cheddar, bacon crujiente</span>
+                                </div>
+                                <span class="item-price">€6.90</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Buffalo Wings</span>
+                                    <span class="item-description">Alitas picantes, salsa buffalo</span>
+                                </div>
+                                <span class="item-price">€6.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/salsas-para-patatas-fritas.jpg" alt="Patatas y Snacks">
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Bebidas</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Refrescos Premium</span>
+                                    <span class="item-description">Coca-Cola, Fanta, Sprite</span>
+                                </div>
+                                <span class="item-price">€2.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Zumos Naturales</span>
+                                    <span class="item-description">Naranja, manzana, piña</span>
+                                </div>
+                                <span class="item-price">€3.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Batidos Artesanos</span>
+                                    <span class="item-description">Fresa, chocolate, vainilla</span>
+                                </div>
+                                <span class="item-price">€4.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/refrescos.jpeg" alt="Bebidas">
+                    </div>
+                </div>
+
+                <!-- Combos Especiales -->
+                <div class="menu-section">
+                    <div class="section-content">
+                        <h3 class="section-title">Combos Especiales</h3>
+                        <div class="menu-list">
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Combo BBQ</span>
+                                    <span class="item-description">BBQ Deluxe + Patatas + Bebida</span>
+                                </div>
+                                <span class="item-price">€15.90</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Combo Mexicano</span>
+                                    <span class="item-description">Burrito Mexicano + Nachos + Bebida</span>
+                                </div>
+                                <span class="item-price">€13.50</span>
+                            </div>
+                            <div class="menu-row">
+                                <div class="item-details">
+                                    <span class="item-name">Combo Kebab</span>
+                                    <span class="item-description">Kebab Mixto + Patatas Bravas + Bebida</span>
+                                </div>
+                                <span class="item-price">€14.90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/menu/combo de comida.jpg" alt="Combos Especiales">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Destacados -->
+    <section class="featured">
+        <div class="container">
+            <h2>Nuestros Destacados</h2>
+            <div class="featured-items">
+                <div class="featured-item">
+                    <div class="featured-badge">🔥 Más Popular</div>
+                    <img src="images/featured/photo-1571091718767-18b5b1457add (1).jpg" alt="BBQ Deluxe">
+                    <div class="featured-info">
+                        <h3>BBQ Deluxe</h3>
+                        <p>Nuestra hamburguesa más popular con doble carne premium, bacon crujiente y nuestra exclusiva salsa BBQ casera. Incluye patatas y bebida.</p>
+                        <div class="featured-details">
+                            <span class="calories">🔥 650 kcal</span>
+                        </div>
+                        <span class="featured-price">€11.90</span>
+                        <a href="tel:+34911234567" class="btn-secondary">Llamar para Pedir o Reservar</a>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-badge">🌶️ Auténtico</div>
+                    <img src="images/featured/photo-1626700051175-6818013e1d4f.jpg" alt="Burrito Mexicano">
+                    <div class="featured-info">
+                        <h3>Burrito Mexicano</h3>
+                        <p>Auténtico sabor mexicano con pollo marinado 24h, guacamole fresco, pico de gallo casero y queso oaxaca derretido.</p>
+                        <div class="featured-details">
+                            <span class="calories">🔥 580 kcal</span>
+                        </div>
+                        <span class="featured-price">€9.50</span>
+                        <a href="tel:+34911234567" class="btn-secondary">Llamar para Pedir o Reservar</a>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-badge">⭐ Chef's Choice</div>
+                    <img src="images/featured/photo-1529006557810-274b9b2fc783.jpg" alt="Kebab Mixto">
+                    <div class="featured-info">
+                        <h3>Kebab Mixto Premium</h3>
+                        <p>La combinación perfecta de pollo y ternera marinados con especias turcas, verduras frescas y nuestras tres salsas especiales.</p>
+                        <div class="featured-details">
+                            <span class="calories">🔥 520 kcal</span>
+                        </div>
+                        <span class="featured-price">€7.50</span>
+                        <a href="tel:+34911234567" class="btn-secondary">Llamar para Pedir o Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ubicación -->
+    <section id="ubicacion" class="location">
+        <div class="container">
+            <h2>Encuéntranos</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Calle Gran Vía, 123<br>28013 Madrid, España</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horarios</h3>
+                            <p>Lunes a Domingo<br>11:00 - 24:00</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+34 91 123 45 67</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.4849853609544!2d-3.7025600846153!3d40.41955597936314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287f8a3d3d3d%3A0x6e52c5d4b4b4b4b4!2sGran%20V%C3%ADa%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2ses!4v1639123456789!5m2!1sen!2ses" 
+                        width="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto/Pedidos -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacta con Nosotros</h2>
+            <p>Llámanos para hacer tu pedido o reservar mesa</p>
+            <div class="contact-methods">
+                <a href="tel:+34911234567" class="contact-btn phone">
+                    <i class="fas fa-phone"></i>
+                    <span>Llamar para Pedir o Reservar</span>
+                </a>
+
+                <a href="mailto:reservas@snackandgo.es?subject=Reserva%20de%20Mesa" class="contact-btn email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email para Reservas</span>
+                </a>
+                <a href="https://maps.google.com/?q=Calle+Gran+Vía+123+Madrid" class="contact-btn location" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Cómo Llegar</span>
+                </a>
+            </div>
+            <div class="contact-info">
+                <div class="contact-detail">
+                    <h3>📞 Pedidos y Reservas por Teléfono</h3>
+                    <p>Llama al <strong>+34 91 123 45 67</strong> para hacer tu pedido o reservar mesa. Tiempo de preparación: 15-20 minutos.</p>
+                </div>
+                <div class="contact-detail">
+                    <h3>🍽️ Información de Reservas</h3>
+                    <p>Reserva tu mesa por teléfono o email. Recomendamos reservar con antelación, especialmente fines de semana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Snack&Go</h3>
+                    <p>Fast Food de Calidad al Momento</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> +34 91 123 45 67</p>
+                    <p><i class="fas fa-envelope"></i> info@snackandgo.es</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p><a href="#">Política de Privacidad</a></p>
+                    <p><a href="#">Términos y Condiciones</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Snack&Go. Todos los derechos reservados.</p>
+                <p class="developer-credit">Desarrollado por <a href="#" target="_blank">Ayuso.dev</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de llamada -->
+    <div class="floating-order">
+        <a href="tel:+34911234567" class="floating-btn">
+            <i class="fas fa-phone"></i>
+            <span>Llamar</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
