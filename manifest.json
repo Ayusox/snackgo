@@ -1,0 +1,54 @@
+{
+    "name": "Snack&Go - Fast Food de Calidad",
+    "short_name": "Snack&Go",
+    "description": "El mejor fast food de Madrid. Hamburguesas gourmet, kebabs auténticos y burritos mexicanos.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#e74c3c",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "es",
+    "dir": "ltr",
+    "categories": ["food", "restaurant", "business"],
+    "icons": [
+        {
+            "src": "images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Llamar para Pedir",
+            "short_name": "Llamar",
+            "description": "Llamar directamente para hacer un pedido",
+            "url": "tel:+34911234567",
+            "icons": [
+                {
+                    "src": "images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Ver Menú",
+            "short_name": "Menú",
+            "description": "Ver nuestro menú completo",
+            "url": "/#menu",
+            "icons": [
+                {
+                    "src": "images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}

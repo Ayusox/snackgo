@@ -3,44 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <meta name="description" content="Snack&Go - El mejor fast food de Madrid. Hamburguesas gourmet, kebabs auténticos y burritos mexicanos con ingredientes frescos. ¡Pide ahora!">
+    
+    <!-- SEO Mejorado -->
+    <title>Snack&Go - Fast Food de Calidad al Momento | Madrid</title>
+    <meta name="description" content="🍔 Snack&Go Madrid - Hamburguesas gourmet, kebabs auténticos y burritos mexicanos. Ingredientes frescos, entrega en 15min. ¡Pide ahora! ☎️ 91 123 45 67">
+    <meta name="keywords" content="fast food Madrid, hamburguesas gourmet, kebabs auténticos, burritos mexicanos, comida rápida calidad, delivery Madrid, Snack&Go">
+    <meta name="author" content="Ayuso.dev">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://snackandgo.es">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Snack&Go - Fast Food de Calidad al Momento">
+    <meta property="og:description" content="El mejor fast food de Madrid. Hamburguesas gourmet, kebabs auténticos y burritos mexicanos con ingredientes frescos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://snackandgo.es">
+    <meta property="og:image" content="https://snackandgo.es/images/featured/photo-1571091718767-18b5b1457add.jpg">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="Snack&Go">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Snack&Go - Fast Food de Calidad">
+    <meta name="twitter:description" content="Hamburguesas gourmet, kebabs auténticos y burritos mexicanos en Madrid">
+    <meta name="twitter:image" content="https://snackandgo.es/images/featured/photo-1571091718767-18b5b1457add.jpg">
+    
+    <!-- PWA -->
     <meta name="theme-color" content="#e74c3c">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <title>Snack&Go - Fast Food de Calidad al Momento</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="apple-mobile-web-app-title" content="Snack&Go">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Favicons optimizados -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Captura_de_pantalla_2025-12-17_221607-removebg-preview.png">
+    
+    <!-- Critical CSS inline -->
+    <style>
+        /* Critical CSS inlined for faster LCP */
+        *{margin:0;padding:0;box-sizing:border-box}body{font-family:'Poppins',sans-serif;line-height:1.6;color:#333;overflow-x:hidden}.header{position:fixed;top:0;width:100%;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);z-index:1000;transition:all 0.3s ease}.navbar{padding:1rem 0}.nav-container{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:0.5rem}.logo i{font-size:1.8rem;color:#e74c3c}.logo h2{color:#e74c3c;font-weight:700;font-size:1.8rem;margin:0}.nav-menu{display:flex;list-style:none;gap:2rem;align-items:center}.nav-menu a{text-decoration:none;color:#333;font-weight:500;transition:color 0.3s ease}.nav-menu a:hover{color:#e74c3c}.btn-pedido{background:#e74c3c;color:white!important;padding:0.7rem 1.5rem;border-radius:25px;transition:all 0.3s ease}.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden}.hero-content{position:relative;z-index:1;text-align:center;color:white;max-width:800px;padding:0 20px}.hero h1{font-size:5rem;font-weight:700;margin-bottom:1rem;line-height:1.1;text-shadow:4px 4px 12px rgba(0,0,0,0.9);letter-spacing:-2px}.hero .highlight{color:#e74c3c}.hero-subtitle{font-size:1.8rem;font-weight:600;margin-bottom:1rem;opacity:0.95}.hero-description{font-size:1.2rem;margin-bottom:2.5rem;opacity:0.9;line-height:1.6}.hero-buttons{display:flex;gap:1rem;justify-content:center;margin-bottom:3rem;flex-wrap:wrap}.btn-primary{display:inline-flex;align-items:center;gap:0.5rem;background:#e74c3c;color:white;padding:1.2rem 2.5rem;text-decoration:none;border-radius:50px;font-weight:600;font-size:1.1rem;transition:all 0.3s ease;box-shadow:0 8px 25px rgba(231,76,60,0.4)}.preloader{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,#000 0%,#333 100%);display:flex;align-items:center;justify-content:center;z-index:10000;transition:opacity 0.5s ease}.preloader::after{content:'';width:60px;height:60px;border:6px solid rgba(231,76,60,0.2);border-top:6px solid #e74c3c;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@media (max-width:768px){.hamburger{display:flex;flex-direction:column;justify-content:center;align-items:center;width:44px;height:44px;cursor:pointer;background:transparent;border:none;border-radius:8px;transition:all 0.3s ease;position:relative;z-index:1001}.hamburger span{display:block;width:22px;height:2px;background:#333;border-radius:2px;transition:all 0.3s ease;transform-origin:center;margin-bottom:4px}.hamburger span:last-child{margin-bottom:0}.nav-menu{position:fixed;top:0;right:-100%;width:280px;height:100vh;flex-direction:column;background:rgba(255,255,255,0.98);backdrop-filter:blur(20px);transition:all 0.4s ease;padding:80px 0 2rem 0;z-index:1000}.nav-menu.active{right:0}.hero h1{font-size:3rem}.hero-subtitle{font-size:1.4rem}.hero-buttons{flex-direction:column;align-items:center}}
+    </style>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"></noscript>
+    
+    <!-- Defer non-critical CSS -->
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    
+    <!-- Preload Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Snack&Go",
+        "description": "Fast Food de Calidad al Momento en Madrid",
+        "url": "https://snackandgo.es",
+        "telephone": "+34911234567",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Calle Gran Vía, 123",
+            "addressLocality": "Madrid",
+            "postalCode": "28013",
+            "addressCountry": "ES"
+        },
+        "openingHours": "Mo-Su 11:00-24:00",
+        "servesCuisine": ["Fast Food", "Hamburguesas", "Kebabs", "Burritos"],
+        "priceRange": "€€",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1000"
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Preloader -->
     <div class="preloader"></div>
 
     <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Navegación principal">
             <div class="nav-container">
                 <div class="logo">
-                    <i class="fas fa-hamburger"></i>
+                    <i class="fas fa-hamburger" aria-hidden="true"></i>
                     <h2>Snack&Go</h2>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#menu">Menú</a></li>
-                    <li><a href="#ubicacion">Ubicación</a></li>
-                    <li><a href="#contacto" class="btn-pedido">Reservar</a></li>
+                <ul class="nav-menu" role="menubar" aria-hidden="true">
+                    <li role="none"><a href="#inicio" role="menuitem">Inicio</a></li>
+                    <li role="none"><a href="#nosotros" role="menuitem">Nosotros</a></li>
+                    <li role="none"><a href="#menu" role="menuitem">Menú</a></li>
+                    <li role="none"><a href="#ubicacion" role="menuitem">Ubicación</a></li>
+                    <li role="none"><a href="#contacto" class="btn-pedido" role="menuitem">Reservar</a></li>
                 </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <button class="hamburger" 
+                        aria-label="Abrir menú de navegación" 
+                        aria-expanded="false" 
+                        aria-controls="nav-menu"
+                        type="button">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
             </div>
         </nav>
         <!-- Overlay para cerrar menú -->
-        <div class="nav-overlay"></div>
+        <div class="nav-overlay" aria-hidden="true"></div>
     </header>
 
     <!-- Hero Section -->
@@ -92,8 +168,9 @@
                     <p>En Snack&Go hemos revolucionado el concepto de comida rápida demostrando que velocidad y calidad van de la mano. Utilizamos ingredientes frescos de proveedores locales y técnicas profesionales para crear hamburguesas, kebabs y burritos únicos. Ofrecemos precios justos creando un espacio donde todos pueden disfrutar de una experiencia gastronómica excepcional en Madrid.</p>
                 </div>
                 <div class="about-image">
-                    <video autoplay muted loop>
+                    <video autoplay muted loop playsinline preload="metadata" aria-label="Video de preparación de tacos mexicanos en Snack&Go">
                         <source src="images/videos/vecteezy_tacos-with-meat-and-vegetable-mexican-food-style_3230495.mp4" type="video/mp4">
+                        <img src="images/featured/photo-1626700051175-6818013e1d4f.jpg" alt="Fallback: Preparación de comida mexicana en Snack&Go" loading="lazy">
                     </video>
                 </div>
             </div>
@@ -145,7 +222,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/hamburguesa-de-alto-angulo-con-papas-fritas-en-la-mesa.jpg" alt="Hamburguesas">
+                        <img src="images/menu/hamburguesa-de-alto-angulo-con-papas-fritas-en-la-mesa.jpg" 
+                             alt="Hamburguesas gourmet Snack&Go - Carne 100% ternera con ingredientes frescos" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
 
@@ -178,7 +259,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/doner-de-pollo-en-pan-sobre-una-plancha-de-madera.jpg" alt="Kebabs">
+                        <img src="images/menu/doner-de-pollo-en-pan-sobre-una-plancha-de-madera.jpg" 
+                             alt="Kebabs auténticos Snack&Go - Pollo y ternera marinados con especias turcas" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
 
@@ -211,7 +296,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/vista-lateral-shawarma-con-papas-fritas-en-utensilios-de-cocina.jpg" alt="Burritos">
+                        <img src="images/menu/vista-lateral-shawarma-con-papas-fritas-en-utensilios-de-cocina.jpg" 
+                             alt="Burritos mexicanos Snack&Go - Pollo marinado 24h con guacamole fresco" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
 
@@ -244,7 +333,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/salsas-para-patatas-fritas.jpg" alt="Patatas y Snacks">
+                        <img src="images/menu/salsas-para-patatas-fritas.jpg" 
+                             alt="Patatas bravas artesanas Snack&Go - Salsa brava casera y alioli" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
 
@@ -277,7 +370,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/refrescos.jpeg" alt="Bebidas">
+                        <img src="images/menu/refrescos.jpeg" 
+                             alt="Bebidas premium Snack&Go - Refrescos, zumos naturales y batidos artesanos" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
 
@@ -310,7 +407,11 @@
                         </div>
                     </div>
                     <div class="section-image">
-                        <img src="images/menu/combo de comida.jpg" alt="Combos Especiales">
+                        <img src="images/menu/combo de comida.jpg" 
+                             alt="Combos especiales Snack&Go - Menús completos con hamburguesa, patatas y bebida" 
+                             loading="lazy"
+                             width="120" 
+                             height="120">
                     </div>
                 </div>
             </div>
@@ -469,7 +570,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Snack&Go. Todos los derechos reservados.</p>
-                <p class="developer-credit">Desarrollado por <a href="#" target="_blank">Ayuso.dev</a></p>
+                <p class="developer-credit">Desarrollado por <a href="https://ayusox.github.io/portfolio/" target="_blank">Ayuso.dev</a></p>
             </div>
         </div>
     </footer>
@@ -482,6 +583,18 @@
         </a>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Defer JavaScript for better performance -->
+    <script src="script.js" defer></script>
+    
+    <!-- Service Worker for PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => console.log('SW registered'))
+                    .catch(error => console.log('SW registration failed'));
+            });
+        }
+    </script>
 </body>
 </html>
