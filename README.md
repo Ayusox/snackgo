@@ -184,21 +184,10 @@ snack-go/
 - **Mobile Friendly**: 100/100
 - **SEO Score**: 95+/100
 
-## 👨‍💻 Créditos
-
-**Desarrollado por**: Ayuso.dev  
-**Diseño**: Minimalista y profesional  
-**Año**: 2024  
-**Versión**: 1.0.0  
-
-## 📄 Licencia
-
-Este proyecto es de uso libre para fines comerciales y personales.
-
----
 
 ## 🎉 **¡WEB COMPLETAMENTE LISTA PARA PRODUCCIÓN!**
 
 **Snack&Go** - Fast Food de Calidad al Momento 🍔  
 
 *Una experiencia gastronómica excepcional en el corazón de Madrid*
+
