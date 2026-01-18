@@ -61,13 +61,6 @@ snack-go/
     └── videos/         # Video de filosofía (1 archivo)
 ```
 
-## 🚀 Instalación y Uso
-
-1. **Descarga**: Clona o descarga todos los archivos del proyecto
-2. **Imágenes**: Asegúrate de que la carpeta `/images/` esté completa
-3. **Servidor Local**: Abre `index.html` en tu navegador o usa un servidor local
-4. **¡Listo!**: La página funciona completamente offline
-
 ## 📱 Funcionalidades Móviles Avanzadas
 
 ### **Menú Hamburguesa Profesional:**
@@ -190,4 +183,5 @@ snack-go/
 **Snack&Go** - Fast Food de Calidad al Momento 🍔  
 
 *Una experiencia gastronómica excepcional en el corazón de Madrid*
+
 
